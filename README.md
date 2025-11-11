@@ -25,15 +25,18 @@
   d(x, c) = \sqrt{(x_1 - c_1)^2 + (x_2 - c_2)^2}
   \]
   $$
-- **Função de custo (inércia)**  
+- **Função de custo (inércia)**
+  $$
   \[
   J = \sum_i \min_k ||x_i - c_k||^2
   \]
-  - **Atualização dos centróides**  
+  $$
+  - **Atualização dos centróides**
+  $$ 
   \[
   c_k = \frac{1}{|S_k|} \sum_{x_i \in S_k} x_i
   \]
-
+  $$
 
 * Função que usamos para calcular a distancia entre os dados e os centróides
 * Seguindo a fórmula fazemos a soma dos quadrados das diferenças
