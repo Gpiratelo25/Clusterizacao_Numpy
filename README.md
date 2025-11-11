@@ -8,15 +8,15 @@
 
 ## 1. O que é clusterização
 
--> Faz parte do aprendizado não supervisionado de máquina, onde a intenção é entender o dataset e agrupar os dados de uma forma que faça sentido, uma vez que não temos variável de resposta.
--> E através do algoritmo vamos descobrir a estrutura dos dados.
+* Faz parte do aprendizado não supervisionado de máquina, onde a intenção é entender o dataset e agrupar os dados de uma forma que faça sentido, uma vez que não temos variável de resposta.
+* E através do algoritmo vamos descobrir a estrutura dos dados.
 
 ## 1.1 K-MEANS
 
--> O objetivo do k-means é atraves de "k" clusters, encontrar quais pontos temos a menor distancia entre os dados
--> Definimos nesse problema k=3, então de início o algoritmo escolhe aleatóriamente três pontos dado como centroides
--> E vamos fazer o cálculo de distancia para cada ponto do datasete e atribuir ao centroide com menor distancia
--> Depois vamos pegar a média desses centroides, daí que vem o nome "means" e calcular a distancia até a convergencia, ou seja, até que as médias não tenham movimento negativo ou atinjam a quantidade que definimos como máxima que é 300.
+*   O objetivo do k-means é atraves de "k" clusters, encontrar quais pontos temos a menor distancia entre os dados
+*   Definimos nesse problema k=3, então de início o algoritmo escolhe aleatóriamente três pontos dado como centroides
+*   E vamos fazer o cálculo de distancia para cada ponto do datasete e atribuir ao centroide com menor distancia
+*   Depois vamos pegar a média desses centroides, daí que vem o nome "means" e calcular a distancia até a convergencia, ou seja, até que as médias não tenham movimento negativo ou atinjam a quantidade que definimos como máxima que é 300.
 
 ## 2. DataSet -> Usamos o dataset wine do scikitlearn
 
