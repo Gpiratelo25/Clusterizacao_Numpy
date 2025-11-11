@@ -4,7 +4,7 @@
 
 ### Objetivo
 
-** Entender o funcionamento do kmeans **
+**Entender o funcionamento do kmeans**
 
 ## 1. O que é clusterização
 
@@ -26,13 +26,15 @@
   \]
   $$
 - **Função de custo (inércia)**
+  
   $$
   \[
   J = \sum_i \min_k ||x_i - c_k||^2
   \]
   $$
   - **Atualização dos centróides**
-  $$ 
+    
+  $$
   \[
   c_k = \frac{1}{|S_k|} \sum_{x_i \in S_k} x_i
   \]
