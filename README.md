@@ -105,18 +105,19 @@ class Kmeans:
             it+=1
         return j,labels,centroides
 ```
+* Plotamos o grafico de cotovelo para nos auxiliar a identificar a quantidade ideal de clusters:
+  <img width="1190" height="390" alt="image" src="https://github.com/user-attachments/assets/b774141a-2991-4d56-b61f-f798c4b3af68" />
 
 ---
 * Chamamos nossa função principal
   ```python
-  kmeans=Kmeans(k=3)
+  kmeans=Kmeans(k=4)
   centroides=kmeans.centroides_iniciais()
   j,labels,centroides=kmeans.run_kmeans(dataset,centroides,tol,max_iter)
   ```
 * por fim plotamos nosso resultado:
-* Em Preto são os centróides
+<img width="1028" height="398" alt="image" src="https://github.com/user-attachments/assets/5da35aac-bf8b-4645-ac9f-e79d15cae3d1" />
 
-  <img width="869" height="547" alt="image" src="https://github.com/user-attachments/assets/0dd36fff-93f8-425b-8a89-3f6fabbcfaf0" />
 
 
 
