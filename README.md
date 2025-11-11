@@ -18,10 +18,13 @@
 -> E vamos fazer o cálculo de distancia para cada ponto do datasete e atribuir ao centroide com menor distancia
 -> Depois vamos pegar a média desses centroides, daí que vem o nome "means" e calcular a distancia até a convergencia, ou seja, até que as médias não tenham movimento negativo ou atinjam a quantidade que definimos como máxima que é 300.
 
-- **Distância Euclidiana**  
+- **Distância Euclidiana**
+
+  $$
   \[
   d(x, c) = \sqrt{(x_1 - c_1)^2 + (x_2 - c_2)^2}
   \]
+  $$
 - **Função de custo (inércia)**  
   \[
   J = \sum_i \min_k ||x_i - c_k||^2
